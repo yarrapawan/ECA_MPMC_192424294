@@ -1,0 +1,6 @@
+MOV AX, [1200h]
+MOV BX, [1202h]
+MUL BX
+MOV [1204h], AX
+MOV [1206h], DX
+HLT

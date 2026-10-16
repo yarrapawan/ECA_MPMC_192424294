@@ -1,0 +1,6 @@
+MOV AX, [1200h]
+NOT AX
+MOV [1202h], AX
+INC AX
+MOV [1204h], AX
+HLT

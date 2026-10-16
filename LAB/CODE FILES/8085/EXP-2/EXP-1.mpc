@@ -1,0 +1,69 @@
+4100
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 LDA 4200h
+\par MOV B A
+\par DCR B
+\par LOOP2: LXI H 4200h
+\par MOV C M
+\par DCR C
+\par INX H
+\par LOOP1: MOV A M
+\par INX H
+\par CMP M
+\par JC AHEAD
+\par MOV D M
+\par MOV M A
+\par DCX H
+\par MOV M D
+\par AHEAD: DCR C
+\par JNZ LOOP1
+\par DCR B
+\par JNZ LOOP2
+\par HLT\cf0 
+\par }
+<End Codes>
+20
+1| 4200| 07
+2| 4201| 4F
+3| 4202| 69
+4| 4203| 84
+5| 4204| 92
+6| 4205| 34
+7| 4206| AB
+8| 4207| F2
+<End UserData>
+31
+1| 4100| 3A
+2| 4101| 00
+3| 4102| 42
+4| 4103| 47
+5| 4104| 05
+6| 4105| 21
+7| 4106| 00
+8| 4107| 42
+9| 4108| 4E
+10| 4109| 0D
+11| 410A| 23
+12| 410B| 7E
+13| 410C| 23
+14| 410D| BE
+15| 410E| DA
+16| 410F| 15
+17| 4110| 41
+18| 4111| 56
+19| 4112| 77
+20| 4113| 2B
+21| 4114| 72
+22| 4115| 0D
+23| 4116| C2
+24| 4117| 0B
+25| 4118| 41
+26| 4119| 05
+27| 411A| C2
+28| 411B| 05
+29| 411C| 41
+30| 411D| 76
+<End HexData>
+
+<End Comment>

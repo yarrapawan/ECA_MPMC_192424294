@@ -1,0 +1,32 @@
+4100
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 LDA 4201h
+\par MOV B A
+\par LDA 4200h
+\par SUB B
+\par STA 4202h
+\par HLT
+\par }
+<End Codes>
+19
+1| 4200| D5
+2| 4201| 4A
+3| 4202| 8B
+<End UserData>
+20
+1| 4100| 3A
+2| 4101| 01
+3| 4102| 42
+4| 4103| 47
+5| 4104| 3A
+6| 4105| 00
+7| 4106| 42
+8| 4107| 90
+9| 4108| 32
+10| 4109| 02
+11| 410A| 42
+12| 410B| 76
+<End HexData>
+
+<End Comment>
